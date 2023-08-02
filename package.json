@@ -1,0 +1,27 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "Fetch api implementation for node js.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawankr101/Fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pawankr101/Fetch/issues"
+  },
+  "homepage": "https://github.com/pawankr101/Fetch#readme",
+  "keywords": [
+    "fetch"
+  ],
+  "author": "Akshay kumar",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema" : "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "target": "ES5",
+    "lib": ["ESNext", "ES2022"],
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "declaration": false,
+    "skipLibCheck": true,
+    "typeRoots": ["../node_modules/@types"]
+  }
+}
